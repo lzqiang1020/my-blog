@@ -26,6 +26,7 @@ SECRET_KEY = 'ik^t$(6+4fc7(#)-kz#$dar(+5xomh-a=^sl9w^vtk4)2mw3#6'
 DEBUG = True
 
 ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = ['132.232.2.227:22',]
 
 
 # Application definition
@@ -37,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'blog',
 ]
 
 MIDDLEWARE = [
